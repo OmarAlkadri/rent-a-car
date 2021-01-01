@@ -7,13 +7,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace rent_a_car.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly rentacarContext _context;
 
         public HomeController(ILogger<HomeController> logger)
         {
